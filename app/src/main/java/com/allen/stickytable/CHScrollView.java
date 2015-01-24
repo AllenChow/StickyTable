@@ -26,7 +26,6 @@ public class CHScrollView extends HorizontalScrollView {
 	}
 	@Override
 	public boolean onTouchEvent(MotionEvent ev) {
-		//���д�����ֵ
 		chScrollViewListener.setTouchView(this);
 		return super.onTouchEvent(ev);
 	}
